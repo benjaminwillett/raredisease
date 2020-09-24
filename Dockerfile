@@ -7,7 +7,7 @@ RUN apt-get update -y && \
 
 COPY ./requirements.txt /app/requirements.txt
 
-WORKDIR /app
+WORKDIR /app/raredisease
 
 RUN pip install -r requirements.txt
 
